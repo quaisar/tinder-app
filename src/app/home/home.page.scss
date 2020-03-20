@@ -1,0 +1,25 @@
+.footer-btns{
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    justify-content: center;
+    div{
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+.top-slider{
+    position: relative;
+}
+.edit-icon{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 10;
+    ion-icon{
+        color: #fff;
+    }
+}
+

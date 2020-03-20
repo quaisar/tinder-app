@@ -1,0 +1,71 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-margin-top">
+        <div class="top-slider">
+          <ion-slides pager="true" [options]="slideTopOpts">
+            <ion-slide>
+              <div class="slide">
+                <img src="assets/images/1.jpg" />
+              </div>
+            </ion-slide>
+        
+            <ion-slide>
+              <div class="slide">
+                <img src="assets/images/1.jpg" />
+              </div>
+            </ion-slide>
+          </ion-slides>
+          <div class="edit-icon">
+            <ion-icon name="create-outline"></ion-icon>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-searchbar class="ion-no-padding"></ion-searchbar>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="bottom-slider">
+          <ion-slides pager="true" [options]="slideBottomOpts">
+            <ion-slide>
+              <div class="slide">
+                <img src="assets/images/2.jpg" />
+              </div>
+            </ion-slide>
+        
+            <ion-slide>
+              <div class="slide">
+                <img src="assets/images/2.jpg" />
+              </div>
+            </ion-slide>
+          </ion-slides>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <div class="footer-btns">
+      <div><img width="60" src="assets/images/dot.png" alt=""></div>
+      <div><img width="50" src="assets/images/camera.png" alt=""></div>
+      <div><img width="60" src="assets/images/close.png" alt=""></div>
+    </div>
+  </ion-toolbar>
+</ion-footer>
